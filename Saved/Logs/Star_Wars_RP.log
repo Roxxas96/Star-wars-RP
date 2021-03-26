@@ -1,8 +1,8 @@
-﻿Log file open, 03/24/21 09:45:03
+﻿Log file open, 03/26/21 14:22:47
 LogInit: Display: Running engine for game: Star_Wars_RP
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.628886
+LogStats: Stats thread started at 0.234260
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Warning: Engine version string in ../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Plugins/BlueprintJson/BlueprintJson.uplugin could not be parsed ("4.25")
@@ -209,917 +209,616 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
-[2021.03.24-08.45.04:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.03.24-08.45.04:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
-[2021.03.24-08.45.04:439][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
-[2021.03.24-08.45.04:446][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.03.24-08.45.04:446][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.03.24-08.45.04:447][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.03.24-08.45.04:448][  0]LogInit: Selected Device Profile: [Windows]
-[2021.03.24-08.45.04:448][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.03.24-08.45.04:448][  0]LogHAL: Display: Platform has ~ 16 GB [17128275968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.03.24-08.45.04:448][  0]LogInit: Going up to parent DeviceProfile []
-[2021.03.24-08.45.04:448][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.03.24-08.45.04:448][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.03.24-08.45.04:449][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.03.24-08.45.04:450][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.03.24-08.45.04:451][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.03.24-08.45.04:451][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
-[2021.03.24-08.45.04:451][  0]LogInit: Computer: DESKTOP-26NILRT
-[2021.03.24-08.45.04:451][  0]LogInit: User: roxxa
-[2021.03.24-08.45.04:451][  0]LogInit: CPU Page size=4096, Cores=8
-[2021.03.24-08.45.04:451][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.03.24-08.45.04:451][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2021.03.24-08.45.04:451][  0]LogMemory: Platform Memory Stats for Windows
-[2021.03.24-08.45.04:451][  0]LogMemory: Process Physical Memory: 120.66 MB used, 120.67 MB peak
-[2021.03.24-08.45.04:451][  0]LogMemory: Process Virtual Memory: 98.77 MB used, 98.77 MB peak
-[2021.03.24-08.45.04:451][  0]LogMemory: Physical Memory: 8409.88 MB used,  7924.91 MB free, 16334.80 MB total
-[2021.03.24-08.45.04:451][  0]LogMemory: Virtual Memory: 5191.99 MB used,  134212536.00 MB free, 134217728.00 MB total
-[2021.03.24-08.45.04:459][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.03.24-08.45.04:634][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.03.24-08.45.04:648][  0]LogInit: Using OS detected language (fr-FR).
-[2021.03.24-08.45.04:648][  0]LogInit: Using OS detected locale (fr-FR).
-[2021.03.24-08.45.04:655][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2021.03.24-08.45.04:655][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
-[2021.03.24-08.45.04:655][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
-[2021.03.24-08.45.04:655][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
-[2021.03.24-08.45.04:655][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
-[2021.03.24-08.45.04:656][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
-[2021.03.24-08.45.04:656][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
-[2021.03.24-08.45.04:656][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
-[2021.03.24-08.45.04:672][  0]LogInit: Setting process to per monitor DPI aware
-[2021.03.24-08.45.04:725][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.03.24-08.45.04:725][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.03.24-08.45.05:079][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.03.24-08.45.05:079][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.03.24-08.45.05:079][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.03.24-08.45.05:079][  0]LogD3D11RHI: D3D11 adapters:
-[2021.03.24-08.45.05:201][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2021.03.24-08.45.05:201][  0]LogD3D11RHI:       6052/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.03.24-08.45.05:205][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.03.24-08.45.05:205][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.03.24-08.45.05:205][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.03.24-08.45.05:215][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.03.24-08.45.05:215][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2021.03.24-08.45.05:215][  0]LogWindows: EnumDisplayDevices:
-[2021.03.24-08.45.05:215][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2021.03.24-08.45.05:215][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2021.03.24-08.45.05:216][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2021.03.24-08.45.05:216][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2021.03.24-08.45.05:216][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.03.24-08.45.05:216][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2021.03.24-08.45.05:216][  0]LogD3D11RHI:   Driver Version: 461.09 (internal:27.21.14.6109, unified:461.09)
-[2021.03.24-08.45.05:216][  0]LogD3D11RHI:      Driver Date: 12-31-2020
-[2021.03.24-08.45.05:216][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2021.03.24-08.45.05:349][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.03.24-08.45.05:350][  0]LogD3D11RHI: Async texture creation enabled
-[2021.03.24-08.45.05:350][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.03.24-08.45.05:385][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.03.24-08.45.05:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.03.24-08.45.05:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.03.24-08.45.05:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.03.24-08.45.05:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.03.24-08.45.05:906][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.03.24-08.45.05:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.03.24-08.45.05:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.03.24-08.45.05:944][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.03.24-08.45.05:956][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.03.24-08.45.05:968][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.03.24-08.45.05:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.03.24-08.45.06:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.03.24-08.45.06:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.03.24-08.45.06:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.03.24-08.45.06:029][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.03.24-08.45.06:041][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.03.24-08.45.06:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.03.24-08.45.06:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.03.24-08.45.06:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.03.24-08.45.06:076][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.03.24-08.45.06:088][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.03.24-08.45.06:229][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Intermediate/Shaders/WorkingDirectory/9796/).
-[2021.03.24-08.45.06:229][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/roxxa/AppData/Local/Temp/UnrealShaderWorkingDir/59B41AFB419B049B443509A480E0387F/'.
-[2021.03.24-08.45.06:231][  0]LogXGEController: Cleaning working directory: C:/Users/roxxa/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.03.24-08.45.06:232][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.03.24-08.45.06:232][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.03.24-08.45.06:232][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.03.24-08.45.07:067][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.03.24-08.45.07:122][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/roxxa/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.03.24-08.45.07:122][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/roxxa/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.03.24-08.45.07:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.03.24-08.45.07:122][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.03.24-08.45.07:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.03.24-08.45.07:122][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.03.24-08.45.07:133][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.03.24-08.45.07:133][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.03.24-08.45.07:133][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.03.24-08.45.07:135][  0]LogDerivedDataCache: Using Local data cache path C:/Users/roxxa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.03.24-08.45.07:135][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.03.24-08.45.07:135][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.03.24-08.45.07:185][  0]LogSlate: Using FreeType 2.10.0
-[2021.03.24-08.45.07:186][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.03.24-08.45.07:215][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
-[2021.03.24-08.45.07:480][  0]LogInit: Selected Device Profile: [Windows]
-[2021.03.24-08.45.07:666][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.03.24-08.45.07:666][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.03.24-08.45.07:666][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.03.24-08.45.07:666][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.03.24-08.45.07:666][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.03.24-08.45.07:688][  0]LogNetVersion: Star_Wars_RP 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 999656592)
-[2021.03.24-08.45.08:215][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000021139A91900), frame # 0
-[2021.03.24-08.45.08:216][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000211399BFB00), frame # 0
-[2021.03.24-08.45.08:217][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021139A07000), frame # 0
-[2021.03.24-08.45.08:291][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.065655 seconds
-[2021.03.24-08.45.08:296][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.03.24-08.45.08:296][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.03.24-08.45.08:296][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.03.24-08.45.08:797][  0]LogPython: Using Python 2.7.14
-[2021.03.24-08.45.09:760][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.03.24-08.45.09:767][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.03.24-08.45.09:860][  0]LogSteamShared: Display: Loading Steam SDK 1.47
-[2021.03.24-08.45.09:894][  0]LogSteamShared: Steam SDK Loaded!
-[2021.03.24-08.45.10:074][  0]SourceControl: Source control is disabled
-[2021.03.24-08.45.10:074][  0]SourceControl: Source control is disabled
-[2021.03.24-08.45.10:091][  0]SourceControl: Source control is disabled
-[2021.03.24-08.45.10:096][  0]SourceControl: Source control is disabled
-[2021.03.24-08.45.10:105][  0]SourceControl: Source control is disabled
-[2021.03.24-08.45.10:122][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2021.03.24-08.45.10:123][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2021.03.24-08.45.10:629][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.03.24-08.45.10:670][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.03.24-08.45.10:670][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.03.24-08.45.10:768][  0]LogOcInput: OculusInput pre-init called
-[2021.03.24-08.45.10:782][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.03.24-08.45.10:782][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.03.24-08.45.13:435][  0]LogClass: Warning: ObjectProperty FKJModOwnershipStruct::ownershipComponent is not initialized properly
-[2021.03.24-08.45.13:445][  0]LogClass: Warning: FKJModPlayerProxyMovementScope::ThirdPersonKeyboardRotator is not initialized properly
-[2021.03.24-08.45.13:445][  0]LogClass: Warning: ObjectProperty FKJModNonPlayerCharacterableRow::SpawnMenuIconImage is not initialized properly
-[2021.03.24-08.45.13:445][  0]LogClass: Display: 3 Uninitialized script stuct members found
-[2021.03.24-08.45.13:445][  0]LogAutomationTest: Warning: ObjectProperty FKJModOwnershipStruct::ownershipComponent is not initialized properly
-[2021.03.24-08.45.13:445][  0]LogAutomationTest: Warning: FKJModPlayerProxyMovementScope::ThirdPersonKeyboardRotator is not initialized properly
-[2021.03.24-08.45.13:445][  0]LogAutomationTest: Warning: ObjectProperty FKJModNonPlayerCharacterableRow::SpawnMenuIconImage is not initialized properly
-[2021.03.24-08.45.13:447][  0]LogEngine: Initializing Engine...
-[2021.03.24-08.45.13:449][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.03.24-08.45.13:449][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.03.24-08.45.13:450][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.03.24-08.45.13:593][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.03.24-08.45.13:652][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.03.24-08.45.13:652][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002115081CC00), frame # 0
-[2021.03.24-08.45.13:652][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021150841E40), frame # 0
-[2021.03.24-08.45.13:668][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.03.24-08.45.13:668][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.03.24-08.45.13:668][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.03.24-08.45.13:668][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.03.24-08.45.13:668][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.03.24-08.45.13:668][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.03.24-08.45.13:668][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.03.24-08.45.13:668][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.03.24-08.45.13:669][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.03.24-08.45.13:669][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.03.24-08.45.13:731][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.03.24-08.45.13:731][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.03.24-08.45.13:795][  0]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
-[2021.03.24-08.45.13:799][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.03.24-08.45.13:802][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.03.24-08.45.13:802][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.03.24-08.45.13:803][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.03.24-08.45.13:805][  0]LogInit: FAudioDevice initialized.
-[2021.03.24-08.45.13:805][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.03.24-08.45.13:900][  0]LogDerivedDataCache: Saved boot cache 0.10s 75MB C:/Users/roxxa/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.03.24-08.45.13:901][  0]LogInit: Texture streaming: Enabled
-[2021.03.24-08.45.13:931][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.03.24-08.45.13:931][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.03.24-08.45.13:936][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.03.24-08.45.14:007][  0]LogInit: Transaction tracking system initialized
-[2021.03.24-08.45.14:080][  0]BlueprintLog: New page: Editor Load
-[2021.03.24-08.45.14:273][  0]LocalizationService: Localization service is disabled
-[2021.03.24-08.45.14:552][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.03.24-08.45.14:552][  0]LogCook: Display: Mobile HDR setting 1
-[2021.03.24-08.45.14:823][  0]LogFileCache: Scanning file cache for directory 'D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/' took 0.01s
-[2021.03.24-08.45.15:114][  0]SourceControl: Source control is disabled
-[2021.03.24-08.45.15:114][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.843
-[2021.03.24-08.45.15:114][  0]Cmd: MAP LOAD FILE="../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.03.24-08.45.15:115][  0]LightingResults: New page: Lighting Build
-[2021.03.24-08.45.15:118][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.03.24-08.45.15:118][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.03.24-08.45.15:118][  0]MapCheck: New page: Map Check
-[2021.03.24-08.45.15:118][  0]LightingResults: New page: Lighting Build
-[2021.03.24-08.45.15:134][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002115081CC00), frame # 0
-[2021.03.24-08.45.15:134][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021150841E40), frame # 0
-[2021.03.24-08.45.15:135][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2021.03.24-08.45.15:382][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.03.24-08.45.15:382][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021130F47E00), frame # 0
-[2021.03.24-08.45.15:382][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000211310F2980), frame # 0
-[2021.03.24-08.45.15:481][  0]LogScript: Warning: Accessed None trying to read property Directional light actor_0
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
+[2021.03.26-13.22.48:056][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.26-13.22.48:056][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
+[2021.03.26-13.22.48:056][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
+[2021.03.26-13.22.48:063][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.26-13.22.48:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.26-13.22.48:064][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.26-13.22.48:065][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.26-13.22.48:065][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.26-13.22.48:065][  0]LogHAL: Display: Platform has ~ 16 GB [17128275968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.26-13.22.48:065][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.26-13.22.48:065][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.26-13.22.48:065][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.26-13.22.48:066][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.26-13.22.48:067][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.26-13.22.48:067][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.26-13.22.48:067][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.26-13.22.48:067][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.26-13.22.48:067][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.26-13.22.48:067][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.26-13.22.48:067][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.26-13.22.48:067][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Config/Windows/Engine.ini]
+[2021.03.26-13.22.48:067][  0]LogInit: Computer: DESKTOP-26NILRT
+[2021.03.26-13.22.48:067][  0]LogInit: User: roxxa
+[2021.03.26-13.22.48:067][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.03.26-13.22.48:067][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.26-13.22.48:067][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.03.26-13.22.48:067][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.26-13.22.48:067][  0]LogMemory: Process Physical Memory: 117.06 MB used, 117.06 MB peak
+[2021.03.26-13.22.48:067][  0]LogMemory: Process Virtual Memory: 98.98 MB used, 98.98 MB peak
+[2021.03.26-13.22.48:067][  0]LogMemory: Physical Memory: 7969.09 MB used,  8365.71 MB free, 16334.80 MB total
+[2021.03.26-13.22.48:067][  0]LogMemory: Virtual Memory: 5191.43 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2021.03.26-13.22.48:076][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.26-13.22.48:153][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.26-13.22.48:154][  0]LogInit: Using OS detected language (fr-FR).
+[2021.03.26-13.22.48:154][  0]LogInit: Using OS detected locale (fr-FR).
+[2021.03.26-13.22.48:158][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2021.03.26-13.22.48:159][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2021.03.26-13.22.48:159][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2021.03.26-13.22.48:159][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2021.03.26-13.22.48:159][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2021.03.26-13.22.48:159][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2021.03.26-13.22.48:159][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2021.03.26-13.22.48:159][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2021.03.26-13.22.48:161][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.26-13.22.48:201][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.26-13.22.48:201][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.26-13.22.48:566][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.26-13.22.48:567][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.26-13.22.48:567][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.26-13.22.48:567][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.26-13.22.48:692][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.03.26-13.22.48:692][  0]LogD3D11RHI:       6052/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.03.26-13.22.48:695][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.26-13.22.48:695][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.26-13.22.48:695][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.26-13.22.48:705][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.26-13.22.48:706][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.26-13.22.48:706][  0]LogWindows: EnumDisplayDevices:
+[2021.03.26-13.22.48:706][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.03.26-13.22.48:706][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2021.03.26-13.22.48:707][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.26-13.22.48:707][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.26-13.22.48:707][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.03.26-13.22.48:707][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.03.26-13.22.48:707][  0]LogD3D11RHI:   Driver Version: 461.09 (internal:27.21.14.6109, unified:461.09)
+[2021.03.26-13.22.48:707][  0]LogD3D11RHI:      Driver Date: 12-31-2020
+[2021.03.26-13.22.48:707][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.03.26-13.22.48:796][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.26-13.22.48:796][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.26-13.22.48:796][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.26-13.22.48:817][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.26-13.22.49:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.26-13.22.49:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.26-13.22.49:256][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.26-13.22.49:256][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.26-13.22.49:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.26-13.22.49:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.26-13.22.49:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.26-13.22.49:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.26-13.22.49:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.26-13.22.49:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.26-13.22.49:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.26-13.22.49:386][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.26-13.22.49:386][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.26-13.22.49:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.26-13.22.49:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.26-13.22.49:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.26-13.22.49:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.26-13.22.49:449][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.26-13.22.49:463][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.26-13.22.49:463][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.26-13.22.49:479][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.26-13.22.49:562][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Intermediate/Shaders/WorkingDirectory/14608/).
+[2021.03.26-13.22.49:562][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/roxxa/AppData/Local/Temp/UnrealShaderWorkingDir/89EDA6864A6CFC5CAFEF02AB0C772FE3/'.
+[2021.03.26-13.22.49:563][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.26-13.22.49:563][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.26-13.22.49:563][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.26-13.22.50:433][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.26-13.22.50:490][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/roxxa/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.26-13.22.50:490][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/roxxa/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.26-13.22.50:490][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.26-13.22.50:490][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.26-13.22.50:490][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.26-13.22.50:490][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.26-13.22.50:501][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.26-13.22.50:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.26-13.22.50:502][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.26-13.22.50:503][  0]LogDerivedDataCache: Using Local data cache path C:/Users/roxxa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.26-13.22.50:503][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.26-13.22.50:503][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.26-13.22.50:554][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.26-13.22.50:555][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.26-13.22.50:584][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2021.03.26-13.22.50:844][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.26-13.22.50:986][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.26-13.22.50:986][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.26-13.22.50:986][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.26-13.22.50:986][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.26-13.22.50:986][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.26-13.22.51:007][  0]LogNetVersion: Star_Wars_RP 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 999656592)
+[2021.03.26-13.22.51:482][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000233BA8A9880), frame # 0
+[2021.03.26-13.22.51:482][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000233BA7C7B00), frame # 0
+[2021.03.26-13.22.51:484][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000233BA81F000), frame # 0
+[2021.03.26-13.22.51:551][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.055769 seconds
+[2021.03.26-13.22.51:556][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.26-13.22.51:556][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.26-13.22.51:556][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.26-13.22.51:902][  0]LogPython: Using Python 2.7.14
+[2021.03.26-13.22.52:785][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.26-13.22.52:791][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.26-13.22.52:851][  0]LogSteamShared: Display: Loading Steam SDK 1.47
+[2021.03.26-13.22.52:852][  0]LogSteamShared: Steam SDK Loaded!
+[2021.03.26-13.22.52:957][  0]SourceControl: Source control is disabled
+[2021.03.26-13.22.52:957][  0]SourceControl: Source control is disabled
+[2021.03.26-13.22.52:961][  0]SourceControl: Source control is disabled
+[2021.03.26-13.22.52:965][  0]SourceControl: Source control is disabled
+[2021.03.26-13.22.52:974][  0]SourceControl: Source control is disabled
+[2021.03.26-13.22.52:992][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.03.26-13.22.52:993][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.03.26-13.22.53:376][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.26-13.22.53:415][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.26-13.22.53:415][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.26-13.22.53:505][  0]LogOcInput: OculusInput pre-init called
+[2021.03.26-13.22.53:518][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.26-13.22.53:518][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.26-13.22.54:300][  0]LogClass: Warning: ObjectProperty FKJModOwnershipStruct::ownershipComponent is not initialized properly
+[2021.03.26-13.22.54:300][  0]LogClass: Warning: FKJModPlayerProxyMovementScope::ThirdPersonKeyboardRotator is not initialized properly
+[2021.03.26-13.22.54:300][  0]LogClass: Warning: ObjectProperty FKJModNonPlayerCharacterableRow::SpawnMenuIconImage is not initialized properly
+[2021.03.26-13.22.54:301][  0]LogClass: Display: 3 Uninitialized script stuct members found
+[2021.03.26-13.22.54:301][  0]LogAutomationTest: Warning: ObjectProperty FKJModOwnershipStruct::ownershipComponent is not initialized properly
+[2021.03.26-13.22.54:301][  0]LogAutomationTest: Warning: FKJModPlayerProxyMovementScope::ThirdPersonKeyboardRotator is not initialized properly
+[2021.03.26-13.22.54:301][  0]LogAutomationTest: Warning: ObjectProperty FKJModNonPlayerCharacterableRow::SpawnMenuIconImage is not initialized properly
+[2021.03.26-13.22.54:302][  0]LogEngine: Initializing Engine...
+[2021.03.26-13.22.54:303][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.26-13.22.54:303][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.03.26-13.22.54:305][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.26-13.22.54:427][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.26-13.22.54:444][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.26-13.22.54:444][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000233D1D40C00), frame # 0
+[2021.03.26-13.22.54:444][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000233D1D65E40), frame # 0
+[2021.03.26-13.22.54:458][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-13.22.54:459][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-13.22.54:459][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-13.22.54:459][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-13.22.54:459][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-13.22.54:459][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-13.22.54:459][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-13.22.54:459][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-13.22.54:459][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-13.22.54:459][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-13.22.54:492][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-13.22.54:492][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-13.22.54:539][  0]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2021.03.26-13.22.54:542][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-13.22.54:546][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-13.22.54:546][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-13.22.54:547][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-13.22.54:548][  0]LogInit: FAudioDevice initialized.
+[2021.03.26-13.22.54:549][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.26-13.22.54:692][  0]LogDerivedDataCache: Saved boot cache 0.14s 75MB C:/Users/roxxa/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.26-13.22.54:692][  0]LogInit: Texture streaming: Enabled
+[2021.03.26-13.22.54:718][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.26-13.22.54:718][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.26-13.22.54:722][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.26-13.22.54:775][  0]LogInit: Transaction tracking system initialized
+[2021.03.26-13.22.54:810][  0]BlueprintLog: New page: Editor Load
+[2021.03.26-13.22.54:923][  0]LocalizationService: Localization service is disabled
+[2021.03.26-13.22.55:149][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.26-13.22.55:149][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.26-13.22.55:380][  0]LogFileCache: Scanning file cache for directory 'D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/' took 0.01s
+[2021.03.26-13.22.55:604][  0]SourceControl: Source control is disabled
+[2021.03.26-13.22.55:604][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.099
+[2021.03.26-13.22.55:604][  0]Cmd: MAP LOAD FILE="../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.26-13.22.55:604][  0]LightingResults: New page: Lighting Build
+[2021.03.26-13.22.55:606][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-13.22.55:607][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-13.22.55:607][  0]MapCheck: New page: Map Check
+[2021.03.26-13.22.55:607][  0]LightingResults: New page: Lighting Build
+[2021.03.26-13.22.55:621][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000233D1D40C00), frame # 0
+[2021.03.26-13.22.55:621][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000233D1D65E40), frame # 0
+[2021.03.26-13.22.55:622][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.03.26-13.22.55:888][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.03.26-13.22.55:888][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000233B1E5FE00), frame # 0
+[2021.03.26-13.22.55:888][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000233B203A980), frame # 0
+[2021.03.26-13.22.55:896][  0]LogScript: Warning: Accessed None trying to read property Directional light actor_0
 	BP_Sky_Sphere_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.SkySphereBlueprint
 	Function /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:RefreshMaterial:0052
-[2021.03.24-08.45.15:482][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.03.24-08.45.15:500][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
-[2021.03.24-08.45.15:501][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.03.24-08.45.15:501][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,163ms to complete.
-[2021.03.24-08.45.15:501][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.387
-[2021.03.24-08.45.15:513][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.243
-[2021.03.24-08.45.15:663][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.24-08.45.15:670][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.24-08.45.15:678][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.24-08.45.15:687][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.03.24-08.45.15:728][  0]LogCollectionManager: Loaded 0 collections in 0.001356 seconds
-[2021.03.24-08.45.15:747][  0]LogFileCache: Scanning file cache for directory 'D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Collections/' took 0.00s
-[2021.03.24-08.45.15:747][  0]LogFileCache: Scanning file cache for directory 'D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/Developers/roxxa/Collections/' took 0.00s
-[2021.03.24-08.45.15:747][  0]LogFileCache: Scanning file cache for directory 'D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/Collections/' took 0.00s
-[2021.03.24-08.45.15:747][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 3570 classes and 855 folders.
-[2021.03.24-08.45.15:762][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.03.24-08.45.15:891][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2021.03.24-08.45.15:931][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
-[2021.03.24-08.45.16:058][  0]LogSlate: Took 0.000441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.03.24-08.45.16:060][  0]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.03.24-08.45.16:064][  0]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.03.24-08.45.16:140][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
-[2021.03.24-08.45.17:101][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2021.03.24-08.45.17:101][  0]LogLoad: (Engine Initialization) Total time: 16.83 seconds
-[2021.03.24-08.45.17:101][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.03.24-08.45.17:142][  0]LogAssetRegistry: Asset discovery search completed in 9.9276 seconds
-[2021.03.24-08.45.17:146][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2021.03.24-08.45.17:146][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.03.24-08.45.17:175][  0]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.03.24-08.46.14:901][643]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Definition04B2BD9747B055E24ADFF1ABEF443875.tmp' to 'D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Definition.uasset'
-[2021.03.24-08.46.14:913][643]AssetCheck: New page: Asset Save: Definition
-[2021.03.24-08.46.14:913][643]LogContentValidation: Display: Validating KJModDefinitionDataAsset /Game/CustomContent/UGC2434120609/Definition.Definition
-[2021.03.24-08.46.18:122][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2021.03.24-08.46.18:660][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
-[2021.03.24-08.47.49:583][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
-[2021.03.24-08.47.49:621][535]LogSlate: Window 'Star_Wars_RP - Unreal Editor' being destroyed
-[2021.03.24-08.47.49:622][535]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2021.03.24-08.47.49:752][536]Cmd: QUIT_EDITOR
-[2021.03.24-08.47.49:752][536]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
-[2021.03.24-08.47.49:764][536]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2021.03.24-08.47.49:825][536]LogExit: Preparing to exit.
-[2021.03.24-08.47.49:849][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
-[2021.03.24-08.47.50:056][536]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2021.03.24-08.47.50:064][536]LogExit: Editor shut down
-[2021.03.24-08.47.50:064][536]LogExit: Transaction tracking system shut down
-[2021.03.24-08.47.50:210][536]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000021139A91900), frame # 1536
-[2021.03.24-08.47.50:210][536]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000211399BFB00), frame # 1536
-[2021.03.24-08.47.50:210][536]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021139A07000), frame # 1536
-[2021.03.24-08.47.50:223][536]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021130F47E00), frame # 1536
-[2021.03.24-08.47.50:223][536]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000211310F2980), frame # 1536
-[2021.03.24-08.47.50:253][536]LogExit: Object subsystem successfully closed.
-[2021.03.24-08.47.50:286][536]LogShaderCompilers: Display: Shaders left to compile 0
-[2021.03.24-08.47.50:300][536]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (820)
-[2021.03.24-08.47.50:300][536]LogModuleManager: Shutting down and abandoning module SceneOutliner (818)
-[2021.03.24-08.47.50:300][536]LogModuleManager: Shutting down and abandoning module AddContentDialog (816)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module WidgetCarousel (815)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module EditorWidgets (812)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module CollectionManager (810)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module StatsViewer (808)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (806)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module FoliageEdit (804)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module LandscapeEditor (802)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module MeshPaintMode (800)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (798)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module ActorPickerMode (796)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (794)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (792)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module AutomationWorker (790)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module SteamVREditor (788)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module OculusMR (786)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module GooglePADEditor (784)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (782)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (780)
-[2021.03.24-08.47.50:301][536]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (778)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (776)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (774)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (772)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (770)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (768)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (766)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module WebMMedia (764)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (762)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (760)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module SequenceRecorder (759)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (756)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (754)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (752)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (750)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (748)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (746)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (744)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (742)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (740)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (738)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module PlanarCut (736)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module CharacterAI (734)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module TextureAlignMode (732)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module BspMode (730)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module PlacementMode (729)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module GeometryMode (726)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (724)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module SmartSnapping (722)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module SessionServices (720)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module MeshPaint (718)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module ViewportSnapping (716)
-[2021.03.24-08.47.50:302][536]LogModuleManager: Shutting down and abandoning module ViewportInteraction (714)
-[2021.03.24-08.47.50:303][536]LogModuleManager: Shutting down and abandoning module ClothPainter (712)
-[2021.03.24-08.47.50:303][536]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (711)
-[2021.03.24-08.47.50:303][536]LogModuleManager: Shutting down and abandoning module LogVisualizer (708)
-[2021.03.24-08.47.50:303][536]LogModuleManager: Shutting down and abandoning module IntroTutorials (706)
-[2021.03.24-08.47.50:303][536]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (705)
-[2021.03.24-08.47.50:303][536]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (702)
-[2021.03.24-08.47.50:303][536]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (700)
-[2021.03.24-08.47.50:303][536]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (698)
-[2021.03.24-08.47.50:303][536]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (697)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (694)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (692)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (690)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (688)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module TraceInsights (686)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module TraceServices (685)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (682)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (680)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module InputBindingEditor (678)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module MergeActors (676)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (674)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module LocalizationService (673)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module HardwareTargeting (670)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (668)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module UndoHistory (666)
-[2021.03.24-08.47.50:461][536]LogModuleManager: Shutting down and abandoning module XmlParser (664)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module Blutility (662)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (660)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (659)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (656)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module SettingsEditor (654)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module ProjectLauncher (652)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module SessionFrontend (650)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module ProfilerClient (648)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module DeviceManager (646)
-[2021.03.24-08.47.50:462][536]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (645)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module AutomationController (642)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module AutomationWindow (640)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module Layers (638)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (636)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module DetailCustomizations (634)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module PackagesDialog (632)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (630)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module Persona (628)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (627)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module AnimGraph (625)
-[2021.03.24-08.47.50:493][536]LogModuleManager: Shutting down and abandoning module Kismet (622)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module KismetWidgets (621)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module GraphEditor (618)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module StructViewer (616)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module ClassViewer (614)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module Toolbox (612)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module ModuleUI (610)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module OutputLog (608)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module GammaUI (606)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module Documentation (604)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module LiveCoding (602)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module LevelSequence (600)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (598)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module MovieScene (596)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (594)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module LauncherPlatform (592)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module AnalyticsET (590)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module PortalServices (588)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module PortalRpc (586)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module MessagingRpc (584)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (582)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module AudioMixerCore (581)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module AIModule (578)
-[2021.03.24-08.47.50:494][536]LogModuleManager: Shutting down and abandoning module GameplayDebugger (577)
-[2021.03.24-08.47.50:495][536]LogModuleManager: Shutting down and abandoning module AITestSuite (575)
-[2021.03.24-08.47.50:495][536]LogModuleManager: Shutting down and abandoning module NavigationSystem (573)
-[2021.03.24-08.47.50:495][536]LogModuleManager: Shutting down and abandoning module ProfilerService (570)
-[2021.03.24-08.47.50:521][536]LogModuleManager: Shutting down and abandoning module TaskGraph (568)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module MegascansPlugin (566)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module VRExpansionPlugin (564)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module OpenVRExpansionPlugin (562)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module KJModEditor (560)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module KillerJimModProxy (558)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module ScreenshotTools (556)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module SynthesisEditor (554)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module Synthesis (552)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (550)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (548)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module OculusEditor (546)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module OculusInput (544)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (542)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module GooglePAD (540)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module EditableMesh (538)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module SQLiteSupport (536)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module DatabaseSupport (534)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (532)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module CableComponent (530)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module AudioCapture (528)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (527)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module AssetTags (524)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (522)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (520)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module AppleImageUtils (518)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module AndroidPermission (516)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (512)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (510)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module TemplateSequence (508)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (506)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (504)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (502)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (500)
-[2021.03.24-08.47.50:522][536]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (499)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (496)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (494)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module MediaCompositing (492)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module ImgMedia (490)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (488)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (486)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (484)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (482)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (480)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (478)
-[2021.03.24-08.47.50:526][536]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (476)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module MeshConversion (474)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module DynamicMesh (472)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (470)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GeometricObjects (468)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (466)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (465)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (462)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (460)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (458)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (456)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module ChaosNiagara (454)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module FractureEditor (452)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (450)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module ChaosCloth (448)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module BackChannel (446)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (444)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module AutomationUtils (442)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module AlembicImporter (440)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module AlembicLibrary (439)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GeometryCache (438)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (437)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (432)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (430)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (428)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module PluginBrowser (426)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (424)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (422)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (420)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module CurveEditorTools (418)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (416)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module CryptoKeys (414)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (412)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (410)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module UObjectPlugin (408)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (406)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (404)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (402)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (400)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module GitSourceControl (398)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module SourceControl (397)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (394)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (392)
-[2021.03.24-08.47.50:527][536]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (390)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (388)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (386)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (384)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (382)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module Paper2DEditor (380)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module BlueprintJson (378)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (376)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module AdvancedSessions (374)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module SteamShared (372)
-[2021.03.24-08.47.50:528][536]LogSteamShared: Freeing the Steam Loaded Modules...
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module SoundFields (370)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module SignificanceManager (368)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (366)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (364)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (360)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module SQLiteCore (358)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module ActorSequence (356)
-[2021.03.24-08.47.50:528][536]LogModuleManager: Shutting down and abandoning module UdpMessaging (354)
-[2021.03.24-08.47.50:628][536]LogModuleManager: Shutting down and abandoning module TcpMessaging (352)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (350)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (348)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (346)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (344)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (342)
-[2021.03.24-08.47.50:820][536]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (340)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (338)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (336)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (334)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapController (332)
-[2021.03.24-08.47.50:820][536]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (330)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module MagicLeapAR (328)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module AugmentedReality (327)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (324)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module Niagara (322)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module SignalProcessing (321)
-[2021.03.24-08.47.50:820][536]LogModuleManager: Shutting down and abandoning module NiagaraEditor (319)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module NiagaraCore (316)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (314)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (312)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (310)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module FacialAnimation (308)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module DataValidation (306)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (304)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module LevelEditor (303)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (302)
-[2021.03.24-08.47.50:821][536]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (300)
-[2021.03.24-08.47.50:822][536]LogModuleManager: Shutting down and abandoning module MainFrame (298)
-[2021.03.24-08.47.50:822][536]LogModuleManager: Shutting down and abandoning module HotReload (297)
-[2021.03.24-08.47.50:822][536]LogModuleManager: Shutting down and abandoning module ToolMenus (293)
-[2021.03.24-08.47.50:822][536]LogModuleManager: Shutting down and abandoning module TreeMap (291)
-[2021.03.24-08.47.50:822][536]LogModuleManager: Shutting down and abandoning module AnimationSharing (288)
-[2021.03.24-08.47.50:822][536]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (286)
-[2021.03.24-08.47.50:822][536]LogModuleManager: Shutting down and abandoning module Paper2D (284)
-[2021.03.24-08.47.50:822][536]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (282)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (280)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (278)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module PacketHandler (276)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (274)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (272)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module MediaAssets (270)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module Overlay (268)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module OverlayEditor (267)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module VREditor (264)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module StringTableEditor (262)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (260)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (258)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module FunctionalTesting (256)
-[2021.03.24-08.47.50:823][536]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (254)
-[2021.03.24-08.47.50:824][536]LogModuleManager: Shutting down and abandoning module UMG (252)
-[2021.03.24-08.47.50:824][536]LogModuleManager: Shutting down and abandoning module UMGEditor (251)
-[2021.03.24-08.47.50:824][536]LogModuleManager: Shutting down and abandoning module MessageLog (249)
-[2021.03.24-08.47.50:824][536]LogModuleManager: Shutting down and abandoning module MaterialEditor (247)
-[2021.03.24-08.47.50:824][536]LogModuleManager: Shutting down and abandoning module ContentBrowser (246)
-[2021.03.24-08.47.50:824][536]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (245)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module SlateReflector (238)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module Slate (236)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module SlateCore (234)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (232)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module UnrealEd (230)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module MRMesh (228)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (226)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (224)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module XAudio2 (222)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module Networking (220)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module Core (218)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module MovieSceneTools (216)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module CurveEditor (215)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module Sequencer (213)
-[2021.03.24-08.47.50:825][536]LogModuleManager: Shutting down and abandoning module EditorStyle (212)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module KismetCompiler (208)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module MeshBuilder (206)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module MeshUtilities (204)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (203)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (202)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (201)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (199)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (197)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (195)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module MaterialBaking (191)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (186)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module DerivedDataCache (184)
-[2021.03.24-08.47.50:826][536]LogModuleManager: Shutting down and abandoning module XGEController (182)
-[2021.03.24-08.47.50:826][536]LogXGEController: Cleaning working directory: C:/Users/roxxa/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module TargetPlatform (180)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (179)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (177)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (175)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (173)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (171)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (169)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (167)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (165)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (163)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (161)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module ImageWrapper (160)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (157)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (155)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (153)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (151)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (149)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (147)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (145)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (143)
-[2021.03.24-08.47.50:827][536]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (141)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (139)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (137)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (135)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (133)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (131)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (129)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (127)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module Messaging (123)
-[2021.03.24-08.47.50:828][536]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (121)
-[2021.03.24-08.47.50:829][536]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (119)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (117)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module InputCore (114)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module Settings (112)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (110)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module PhysXCooking (108)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module ChaosSolvers (106)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (105)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module Chaos (102)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (100)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (99)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module AVEncoder (98)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (94)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module SteamVRInput (92)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module SteamVR (90)
-[2021.03.24-08.47.50:832][536]LogHMD: Freeing OpenVRDLLHandle.
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module OculusHMD (88)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (86)
-[2021.03.24-08.47.50:832][536]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (84)
-[2021.03.24-08.47.50:833][536]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (82)
-[2021.03.24-08.47.50:833][536]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (78)
-[2021.03.24-08.47.50:835][536]LogModuleManager: Shutting down and abandoning module XMPP (73)
-[2021.03.24-08.47.50:835][536]LogModuleManager: Shutting down and abandoning module WebSockets (72)
-[2021.03.24-08.47.50:838][536]LogModuleManager: Shutting down and abandoning module HTTP (69)
-[2021.03.24-08.47.50:838][536]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2021.03.24-08.47.50:838][536]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B02FE3B2C-4DC8-580A-84E2-3FA938CD2E84%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=2d0b481f4087f9450be65c93402287bf%7C62a21eb609f04c3cb0243bd0fcb2a83d%7C200814ae-d76a-4da0-83dc-77d92911d844&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
-[2021.03.24-08.47.50:849][536]LogModuleManager: Shutting down and abandoning module SSL (68)
-[2021.03.24-08.47.50:850][536]LogModuleManager: Shutting down and abandoning module WmfMedia (64)
-[2021.03.24-08.47.50:851][536]LogModuleManager: Shutting down and abandoning module Media (63)
-[2021.03.24-08.47.50:852][536]LogModuleManager: Shutting down and abandoning module MagicLeap (60)
-[2021.03.24-08.47.50:852][536]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (58)
-[2021.03.24-08.47.50:852][536]LogModuleManager: Shutting down and abandoning module NiagaraShader (56)
-[2021.03.24-08.47.50:852][536]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
-[2021.03.24-08.47.50:852][536]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2021.03.24-08.47.50:853][536]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2021.03.24-08.47.50:854][536]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2021.03.24-08.47.50:855][536]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2021.03.24-08.47.50:855][536]LogD3D11RHI: Shutdown
-[2021.03.24-08.47.50:855][536]LogD3D11RHI: CleanupD3DDevice
-[2021.03.24-08.47.50:877][536]LogExit: Exiting.
-[2021.03.24-08.47.50:893][536]Log file closed, 03/24/21 09:47:50
+[2021.03.26-13.22.55:898][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.26-13.22.55:916][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.03.26-13.22.55:916][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.26-13.22.55:916][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,1ms to complete.
+[2021.03.26-13.22.55:916][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.313
+[2021.03.26-13.22.55:919][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.415
+[2021.03.26-13.22.56:076][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-13.22.56:085][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-13.22.56:092][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-13.22.56:100][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-13.22.56:109][  0]LogCollectionManager: Loaded 0 collections in 0.001282 seconds
+[2021.03.26-13.22.56:128][  0]LogFileCache: Scanning file cache for directory 'D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Collections/' took 0.00s
+[2021.03.26-13.22.56:128][  0]LogFileCache: Scanning file cache for directory 'D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/Developers/roxxa/Collections/' took 0.00s
+[2021.03.26-13.22.56:128][  0]LogFileCache: Scanning file cache for directory 'D:/roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/Collections/' took 0.00s
+[2021.03.26-13.22.56:128][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3570 classes and 855 folders.
+[2021.03.26-13.22.56:135][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.26-13.22.56:273][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.26-13.22.56:278][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.03.26-13.22.56:404][  0]LogSlate: Took 0.000472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.26-13.22.56:406][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.26-13.22.56:410][  0]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.26-13.22.56:478][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2021.03.26-13.22.57:371][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.03.26-13.22.57:371][  0]LogLoad: (Engine Initialization) Total time: 12.87 seconds
+[2021.03.26-13.22.57:372][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.26-13.22.57:409][  0]LogAssetRegistry: Asset discovery search completed in 6.8255 seconds
+[2021.03.26-13.22.57:412][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.03.26-13.22.57:413][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.26-13.23.32:566][136]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.26-13.23.42:752][136]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.26-13.23.50:946][ 71]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.26-13.23.56:681][ 71]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.26-13.24.03:353][858]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.24.03:597][858]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2021.03.26-13.24.04:729][858]LogRenderer: Reallocating scene render targets to support 1616x980 Format 10 NumSamples 1 (Frame:1).
+[2021.03.26-13.24.06:477][985]LogSlate: Window 'SWRP_Gamemode' being destroyed
+[2021.03.26-13.24.17:197][211]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.26-13.24.37:554][541]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.26-13.25.41:985][130]LogSlate: Took 0.000462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.03.26-13.25.47:273][725]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.25.47:317][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.03.26-13.25.47:355][725]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.26-13.25.47:713][762]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode5F823F0C4BC23918797A969EAC8AC3BA.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.25.47:738][762]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.25.47:738][762]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.26.34:645][318]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.26.34:683][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.03.26-13.26.35:054][353]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode75D520D34E13ECE8D178729351B0934F.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.26.35:070][353]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.26.35:070][353]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.26.53:912][502]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.26.53:949][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.03.26-13.26.54:370][544]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode78547D744C4F3F865F8A958A73F1B30C.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.26.54:384][544]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.26.54:384][544]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.29.10:276][772]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.26-13.30.50:400][353]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.30.50:441][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.03.26-13.30.50:821][387]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_GamemodeA6A773004ED6B246E5B15DB69BE8E875.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.30.50:841][387]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.30.50:842][387]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.31.15:800][828]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.03.26-13.31.19:432][828]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.03.26-13.31.33:878][552]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomContent/UGC2434120609/Blueprints/MacroLib.MacroLib
+[2021.03.26-13.32.42:204][379]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/MacroLibA22A2D1047962764100DC2929372BA0E.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/MacroLib.uasset'
+[2021.03.26-13.32.42:229][379]AssetCheck: New page: Asset Save: MacroLib
+[2021.03.26-13.32.42:229][379]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/MacroLib.MacroLib
+[2021.03.26-13.33.20:306][791]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.33.20:349][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.03.26-13.33.20:731][827]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode04856E684A440C23A10010AF58254824.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.33.20:750][827]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.33.20:750][827]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.34.11:424][908]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformation.PlayerInformation
+[2021.03.26-13.34.14:507][260]LogMetaData: Removing '/Game/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.PlayerInformations' ref from Metadata '/Game/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformation.PackageMetaData'
+[2021.03.26-13.34.14:542][260]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/PlayerInformations47E4DBA842A3D3ED93244EB749D31F23.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.uasset'
+[2021.03.26-13.34.14:831][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.03.26-13.34.14:865][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.03.26-13.34.14:888][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.03.26-13.34.14:935][260]AssetCheck: New page: Asset Save: PlayerInformations
+[2021.03.26-13.34.14:935][260]LogContentValidation: Display: Validating UserDefinedStruct /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.PlayerInformations
+[2021.03.26-13.34.28:656][868]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/PlayerInformations0D2C2F544FFCEEDC555B3E8A9A4C7018.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.uasset'
+[2021.03.26-13.34.28:670][868]AssetCheck: New page: Asset Save: PlayerInformations
+[2021.03.26-13.34.28:670][868]LogContentValidation: Display: Validating UserDefinedStruct /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.PlayerInformations
+[2021.03.26-13.34.34:760][573]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/PlayerInformationsBD30BD8F44B336B6723915B045F7200B.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.uasset'
+[2021.03.26-13.34.34:772][573]AssetCheck: New page: Asset Save: PlayerInformations
+[2021.03.26-13.34.34:772][573]LogContentValidation: Display: Validating UserDefinedStruct /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.PlayerInformations
+[2021.03.26-13.35.05:198][ 46]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"''
+[2021.03.26-13.37.18:896][453]LogEditorTransaction: Undo Move Node
+[2021.03.26-13.37.26:253][281]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.37.26:301][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.03.26-13.37.26:726][320]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode9CA957184C94946B3736B7A6D4305950.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.37.26:741][320]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.37.26:741][320]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.37.28:648][537]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-13.37.28:648][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-13.37.57:333][497]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'"/Game/CustomContent/UGC2248027258/Blueprints/Player/VanillaRPPlayerBP.VanillaRPPlayerBP_C"',MemberName="PlayerMoney",MemberGuid=F9575872439AC530139521B4B006535B)'
+[2021.03.26-13.37.57:335][497]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"',ContainerType=Array)'
+[2021.03.26-13.37.57:335][497]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"''
+[2021.03.26-13.37.57:336][497]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'"/Game/CustomContent/UGC2248027258/Blueprints/Player/VanillaRPPlayerBP.VanillaRPPlayerBP_C"',ContainerType=Array)'
+[2021.03.26-13.37.57:339][497]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'"/Game/CustomContent/UGC2248027258/Blueprints/Player/VanillaRPPlayerBP.VanillaRPPlayerBP_C"',MemberName="PlayerMoney",MemberGuid=F9575872439AC530139521B4B006535B)'
+[2021.03.26-13.37.57:340][497]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'"/Game/CustomContent/UGC2248027258/Blueprints/Player/VanillaRPPlayerBP.VanillaRPPlayerBP_C"',ContainerType=Array)'
+[2021.03.26-13.37.57:340][497]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"',ContainerType=Array)'
+[2021.03.26-13.37.57:342][497]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"',ContainerType=Array)'
+[2021.03.26-13.37.57:345][497]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"''
+[2021.03.26-13.37.57:346][497]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"''
+[2021.03.26-13.37.59:670][750]LogEditorTransaction: Undo Move Nodes
+[2021.03.26-13.38.00:385][788]LogEditorTransaction: Undo Paste clipboard contents
+[2021.03.26-13.38.02:620][ 48]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'"/Game/CustomContent/UGC2248027258/Blueprints/Player/VanillaRPPlayerBP.VanillaRPPlayerBP_C"',MemberName="PlayerMoney",MemberGuid=F9575872439AC530139521B4B006535B)'
+[2021.03.26-13.38.02:621][ 48]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"',ContainerType=Array)'
+[2021.03.26-13.38.02:622][ 48]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"''
+[2021.03.26-13.38.02:623][ 48]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'"/Game/CustomContent/UGC2248027258/Blueprints/Player/VanillaRPPlayerBP.VanillaRPPlayerBP_C"',ContainerType=Array)'
+[2021.03.26-13.38.02:626][ 48]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'"/Game/CustomContent/UGC2248027258/Blueprints/Player/VanillaRPPlayerBP.VanillaRPPlayerBP_C"',MemberName="PlayerMoney",MemberGuid=F9575872439AC530139521B4B006535B)'
+[2021.03.26-13.38.02:627][ 48]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'"/Game/CustomContent/UGC2248027258/Blueprints/Player/VanillaRPPlayerBP.VanillaRPPlayerBP_C"',ContainerType=Array)'
+[2021.03.26-13.38.02:628][ 48]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"',ContainerType=Array)'
+[2021.03.26-13.38.02:630][ 48]LogProperty: Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"',ContainerType=Array)'
+[2021.03.26-13.38.02:632][ 48]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"''
+[2021.03.26-13.38.02:634][ 48]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"''
+[2021.03.26-13.40.05:933][303]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-13.40.19:087][734]BlueprintLog: New page: Compile SWRP_Player
+[2021.03.26-13.40.19:144][734]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.03.26-13.40.19:516][771]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_PlayerCA12B7BC4035EDB2B5711BBAEA9C3ABB.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-13.40.19:530][771]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-13.40.19:530][771]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-13.40.19:942][816]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-13.40.19:942][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-13.43.51:491][172]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.03.26-13.43.51:493][172]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.032
+[2021.03.26-13.43.51:494][172]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode] ([1] browsable assets)...
+[2021.03.26-13.43.51:494][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode]
+[2021.03.26-13.43.51:545][172]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode_Auto1F85F4BCF4B226D74C5A8B49B51BD28EF.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Autosaves/Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode_Auto1.uasset'
+[2021.03.26-13.43.51:548][172]LogFileHelpers: Auto-saving content packages took 0.055
+[2021.03.26-13.45.10:071][548]LogSlate: Window 'Delete Variable' being destroyed
+[2021.03.26-13.48.22:321][ 48]LogEditorTransaction: Undo Promote To Variable
+[2021.03.26-13.49.14:282][220]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.03.26-13.49.18:791][599]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.03.26-13.53.34:667][463]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.53.34:735][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.03.26-13.53.35:206][503]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode1B5F0BD242572F05F2714AB9A8B204CB.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.53.35:225][503]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.53.35:225][503]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.54.23:594][434]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode1B9750F144045087A33D538D82C2226E.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.54.23:613][434]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.54.23:613][434]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.54.41:163][939]LogEditorTransaction: Undo Move Nodes
+[2021.03.26-13.55.37:791][511]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.55.37:854][511]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.03.26-13.55.38:240][545]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_GamemodeEEEB31B342867F1117EF8EA9B92D6720.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.55.38:257][545]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.55.38:257][545]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.56.21:619][553]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.56.21:684][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.03.26-13.56.22:092][589]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode220C8BEA4D3C43FA2413EE8B1EBF74E8.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.56.22:111][589]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.56.22:111][589]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.56.42:627][962]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.56.42:686][962]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.03.26-13.56.43:059][995]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_GamemodeCC6DC8414AB9786035EC7981B108DC9E.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.56.43:081][995]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.56.43:081][995]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-13.57.22:986][658]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-13.57.23:049][658]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.03.26-13.57.23:412][688]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode08F358F44811D138D6BA19A89A95FE03.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-13.57.23:432][688]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-13.57.23:432][688]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-14.02.41:122][554]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.02.45:674][ 33]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-14.02.45:674][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
