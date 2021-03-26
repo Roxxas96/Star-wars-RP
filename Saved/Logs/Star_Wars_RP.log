@@ -822,3 +822,146 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.26-14.02.41:122][554]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
 [2021.03.26-14.02.45:674][ 33]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
 [2021.03.26-14.02.45:674][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-14.03.49:829][787]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.07.43:530][102]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"''
+[2021.03.26-14.10.29:094][563]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'"/Game/CustomContent/UGC2248027258/Blueprints/SavePlayerStruct.SavePlayerStruct"''
+[2021.03.26-14.14.12:774][108]BlueprintLog: New page: Compile SWRP_Player
+[2021.03.26-14.14.12:796][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Save Player Struct  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:796][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Money  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:796][108]LogBlueprint: Error: [Compiler SWRP_Player] No Struct in  Break <unknown struct>
+[2021.03.26-14.14.12:796][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  <Unnamed>  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:796][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  <Unnamed>  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:796][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Blueprint Json Value Structs  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:796][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Steam Id  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:796][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Successful  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:797][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Save Player Struct  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:797][108]LogBlueprint: Error: [Compiler SWRP_Player] Could not find a function named "GetSavePlayerStruct" in 'SWRP_Player_C'.
+Make sure 'SWRP_Player_C' has been compiled for  Get Save Player Struct
+[2021.03.26-14.14.12:797][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  <Unnamed>  no longer exists on node  Set Money Server . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:797][108]LogBlueprint: Warning: [Compiler SWRP_Player] Input pin  Money  specifying non-default value no longer exists on node  Set Money Server . Please refresh node or reset pin to default value to remove pin.
+[2021.03.26-14.14.12:797][108]LogBlueprint: Error: [Compiler SWRP_Player] Could not find a function named "SetMoneyServer" in 'SWRP_Player_C'.
+Make sure 'SWRP_Player_C' has been compiled for  Set Money Server
+[2021.03.26-14.14.12:797][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  <Unnamed>  no longer exists on node  Set Money Server . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:797][108]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Money  no longer exists on node  Set Money Server . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.12:797][108]LogBlueprint: Error: [Compiler SWRP_Player] Could not find a function named "SetMoneyServer" in 'SWRP_Player_C'.
+Make sure 'SWRP_Player_C' has been compiled for  Set Money Server
+[2021.03.26-14.14.12:802][108]LogBlueprint: Warning: [Compiler SWRP_Player] The structure cannot be broken using generic 'break' node  Break <unknown struct> . Try use specialized 'break' function if available.
+[2021.03.26-14.14.12:802][108]LogBlueprint: Error: [Compiler SWRP_Player] Unknown structure to break for  Break <unknown struct>
+[2021.03.26-14.14.12:859][108]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.03.26-14.14.13:179][135]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Player0561FE574A941E24249F42B014168B3F.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.14.13:200][135]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.14.13:200][135]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.14.32:495][389]BlueprintLog: New page: Compile SWRP_Player
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Save Player Struct  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Money  no longer exists on node  Break <unknown struct> . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] No Struct in  Break <unknown struct>
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  <Unnamed>  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  <Unnamed>  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Blueprint Json Value Structs  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Steam Id  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Successful  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Save Player Struct  no longer exists on node  Get Save Player Struct . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:501][389]LogBlueprint: Error: [Compiler SWRP_Player] Could not find a function named "GetSavePlayerStruct" in 'SWRP_Player_C'.
+Make sure 'SWRP_Player_C' has been compiled for  Get Save Player Struct
+[2021.03.26-14.14.32:502][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  <Unnamed>  no longer exists on node  Set Money Server . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:502][389]LogBlueprint: Warning: [Compiler SWRP_Player] Input pin  Money  specifying non-default value no longer exists on node  Set Money Server . Please refresh node or reset pin to default value to remove pin.
+[2021.03.26-14.14.32:502][389]LogBlueprint: Error: [Compiler SWRP_Player] Could not find a function named "SetMoneyServer" in 'SWRP_Player_C'.
+Make sure 'SWRP_Player_C' has been compiled for  Set Money Server
+[2021.03.26-14.14.32:502][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  <Unnamed>  no longer exists on node  Set Money Server . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:502][389]LogBlueprint: Error: [Compiler SWRP_Player] In use pin  Money  no longer exists on node  Set Money Server . Please refresh node or break links to remove pin.
+[2021.03.26-14.14.32:502][389]LogBlueprint: Error: [Compiler SWRP_Player] Could not find a function named "SetMoneyServer" in 'SWRP_Player_C'.
+Make sure 'SWRP_Player_C' has been compiled for  Set Money Server
+[2021.03.26-14.14.32:506][389]LogBlueprint: Warning: [Compiler SWRP_Player] The structure cannot be broken using generic 'break' node  Break <unknown struct> . Try use specialized 'break' function if available.
+[2021.03.26-14.14.32:506][389]LogBlueprint: Error: [Compiler SWRP_Player] Unknown structure to break for  Break <unknown struct>
+[2021.03.26-14.14.32:554][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.03.26-14.14.32:945][419]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_PlayerBC2253324DD5B923A8B0DC9159A08A3A.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.14.32:963][419]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.14.32:963][419]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.17.57:894][737]BlueprintLog: New page: Compile SWRP_Player
+[2021.03.26-14.17.57:959][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.03.26-14.17.58:333][768]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_PlayerE792BA0E4CC2E2022BA079B04F6507BC.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.17.58:351][768]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.17.58:351][768]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.18.57:303][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.03.26-14.18.57:305][ 96]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.033
+[2021.03.26-14.18.57:306][ 96]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player] ([1] browsable assets)...
+[2021.03.26-14.18.57:306][ 96]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player]
+[2021.03.26-14.18.57:330][ 96]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Player_Auto2EF5957054233296385C1E6BE35F90A2A.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Autosaves/Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player_Auto2.uasset'
+[2021.03.26-14.18.57:332][ 96]LogFileHelpers: Auto-saving content packages took 0.027
+[2021.03.26-14.19.59:462][138]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/JobsEnum.JobsEnum
+[2021.03.26-14.20.13:323][773]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/JobsEnumB58500F74EA1E432DC9D619FDAA34272.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/JobsEnum.uasset'
+[2021.03.26-14.20.13:344][773]AssetCheck: New page: Asset Save: JobsEnum
+[2021.03.26-14.20.13:344][773]LogContentValidation: Display: Validating UserDefinedEnum /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/JobsEnum.JobsEnum
+[2021.03.26-14.20.21:300][630]BlueprintLog: New page: Compile SWRP_Player
+[2021.03.26-14.20.21:362][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.03.26-14.20.21:723][658]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Player938F472C460ECFD01005D8AB43121F8A.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.20.21:738][658]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.20.21:738][658]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.20.24:349][938]BlueprintLog: New page: Compile SWRP_Player
+[2021.03.26-14.20.24:416][938]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2021.03.26-14.20.24:739][963]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_PlayerE7A1D7E24CD0DE1770560BB4501B33EA.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.20.24:758][963]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.20.24:758][963]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.20.42:996][958]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.PlayerInformations
+[2021.03.26-14.20.51:839][987]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/PlayerInformations667BB4C24179E5A24EBC29B4510F21D4.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.uasset'
+[2021.03.26-14.20.51:852][987]AssetCheck: New page: Asset Save: PlayerInformations
+[2021.03.26-14.20.51:852][987]LogContentValidation: Display: Validating UserDefinedStruct /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/PlayerInformations.PlayerInformations
+[2021.03.26-14.28.18:027][ 13]BlueprintLog: New page: Compile SWRP_Player
+[2021.03.26-14.28.18:089][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.03.26-14.28.18:604][ 60]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Player3020259E4CC54FF75AB1BAA89FB52B84.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.28.18:622][ 60]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.28.18:622][ 60]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.29.03:977][911]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-14.29.04:053][911]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.03.26-14.29.04:452][941]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode6C7EF71B4144D8660CE7EFAA1BE895A0.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-14.29.04:471][941]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-14.29.04:471][941]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-14.29.40:986][597]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-14.29.41:063][597]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.03.26-14.29.41:516][624]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode710F60974B695AE34D2FA184FABEB8B8.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-14.29.41:538][624]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-14.29.41:538][624]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-14.30.07:908][509]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Gamemode4BDE5A5045AF6C9552F72AB6F9162B02.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-14.30.07:929][509]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-14.30.07:929][509]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-14.31.00:287][368]BlueprintLog: New page: Compile SWRP_Gamemode
+[2021.03.26-14.31.00:368][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.03.26-14.31.00:816][406]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_GamemodeBE79812E426347177A87E9ABD62C5D4F.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.uasset'
+[2021.03.26-14.31.00:840][406]AssetCheck: New page: Asset Save: SWRP_Gamemode
+[2021.03.26-14.31.00:840][406]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Gamemode/SWRP_Gamemode.SWRP_Gamemode
+[2021.03.26-14.31.22:228][825]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_PlayerCFF98D7D48D63FC799018597D27C70AF.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.31.22:251][825]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.31.22:251][825]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.32.14:380][593]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.03.26-14.32.14:381][593]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.030
+[2021.03.26-14.32.14:382][593]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player] ([1] browsable assets)...
+[2021.03.26-14.32.14:382][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player]
+[2021.03.26-14.32.14:410][593]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Player_Auto39ED81853465213E9C8548FBFC9F29EC5.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/Autosaves/Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player_Auto3.uasset'
+[2021.03.26-14.32.14:412][593]LogFileHelpers: Auto-saving content packages took 0.032
+[2021.03.26-14.34.36:441][561]LogEditorTransaction: Undo Promote To Variable
+[2021.03.26-14.36.21:798][811]BlueprintLog: New page: Compile SWRP_Player
+[2021.03.26-14.36.21:883][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.03.26-14.36.22:275][845]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Player01279BB443E7D3A5B46862907441E06B.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.36.22:292][845]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.36.22:292][845]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.36.25:248][172]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CustomContent/UGC2434120609/Blueprints/MacroLib.MacroLib
+[2021.03.26-14.36.25:608][172]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2021.03.26-14.36.25:660][172]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.03.26-14.36.26:913][319]LogSlate: Window 'CompilerResults' being destroyed
+[2021.03.26-14.36.26:918][319]LogSlate: Window 'CompilerResults' being destroyed
+[2021.03.26-14.37.05:653][363]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/MacroLib4C79D0164E14F9EBD2E6F2AE40A87575.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/MacroLib.uasset'
+[2021.03.26-14.37.05:671][363]AssetCheck: New page: Asset Save: MacroLib
+[2021.03.26-14.37.05:671][363]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/MacroLib.MacroLib
+[2021.03.26-14.37.06:868][495]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-14.37.06:868][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-14.38.32:097][621]LogEditorTransaction: Undo Add Node
+[2021.03.26-14.40.08:927][691]BlueprintLog: New page: Compile SWRP_Player
+[2021.03.26-14.40.09:000][691]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.03.26-14.40.09:420][726]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_Player12DE58634D115FE0952239889ADC4C96.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.40.09:438][726]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.40.09:438][726]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.40.31:252][122]LogSavePackage: Moving '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Saved/SWRP_PlayerED24D5D246DEA54D1D10D8AB365D640A.tmp' to '../../../../../../roxxa/Documents/Unreal_Projects/Star_Wars_RP/Content/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.uasset'
+[2021.03.26-14.40.31:268][122]AssetCheck: New page: Asset Save: SWRP_Player
+[2021.03.26-14.40.31:268][122]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/UGC2434120609/Blueprints/Player/SWRP_Player.SWRP_Player
+[2021.03.26-14.40.32:686][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.03.26-14.40.32:813][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
